@@ -15,6 +15,7 @@
 		51D7898E1EEF8DF500F96AF3 /* UIColor+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7898D1EEF8DF500F96AF3 /* UIColor+LSAddition.m */; };
 		51D789911EEF91E100F96AF3 /* UILabel+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D789901EEF91E100F96AF3 /* UILabel+LSAddition.m */; };
 		51D789941EEF932900F96AF3 /* UIButton+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D789931EEF932900F96AF3 /* UIButton+LSAddition.m */; };
+		51D789971EEF95CD00F96AF3 /* NSAttributedString+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D789961EEF95CD00F96AF3 /* NSAttributedString+LSAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		51D789901EEF91E100F96AF3 /* UILabel+LSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LSAddition.m"; sourceTree = "<group>"; };
 		51D789921EEF932900F96AF3 /* UIButton+LSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LSAddition.h"; sourceTree = "<group>"; };
 		51D789931EEF932900F96AF3 /* UIButton+LSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LSAddition.m"; sourceTree = "<group>"; };
+		51D789951EEF95CD00F96AF3 /* NSAttributedString+LSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+LSAddition.h"; sourceTree = "<group>"; };
+		51D789961EEF95CD00F96AF3 /* NSAttributedString+LSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+LSAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				51D789901EEF91E100F96AF3 /* UILabel+LSAddition.m */,
 				51D789921EEF932900F96AF3 /* UIButton+LSAddition.h */,
 				51D789931EEF932900F96AF3 /* UIButton+LSAddition.m */,
+				51D789951EEF95CD00F96AF3 /* NSAttributedString+LSAddition.h */,
+				51D789961EEF95CD00F96AF3 /* NSAttributedString+LSAddition.m */,
 			);
 			path = LSAdditions;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D789791EEF8CCA00F96AF3 /* ViewController.m in Sources */,
+				51D789971EEF95CD00F96AF3 /* NSAttributedString+LSAddition.m in Sources */,
 				51D789911EEF91E100F96AF3 /* UILabel+LSAddition.m in Sources */,
 				51D789761EEF8CCA00F96AF3 /* AppDelegate.m in Sources */,
 				51D7898E1EEF8DF500F96AF3 /* UIColor+LSAddition.m in Sources */,
