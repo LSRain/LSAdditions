@@ -23,6 +23,7 @@ Additions with Common controls(一些常用控件的分类)
 	self.view.backgroundColor = [UIColor ls_colorWithHex:0xff0000];
 	/// create a button
 	[UIButton ls_textButton:@"buttonName" fontSize:14 normalColor:[UIColor ls_colorWithHex:0xff0000] selectedColor:nil];
+	...
 ```
 
 ## 版本日志
