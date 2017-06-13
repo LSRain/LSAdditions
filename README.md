@@ -29,5 +29,5 @@ self.view.backgroundColor = [UIColor ls_colorWithHex:0xff0000];
 ## 版本日志
 * 2017年06月13日 `~>0.0.1`
 
-## 协议
+## License
 * **MIT**
