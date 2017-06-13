@@ -10,5 +10,6 @@
 #define LSAdditions_h
 
 #import "UIColor+LSAddition.h"
+#import "UILabel+LSAddition.h"
 
 #endif /* LSAdditions_h */
