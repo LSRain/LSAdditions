@@ -11,5 +11,6 @@
 
 #import "UIColor+LSAddition.h"
 #import "UILabel+LSAddition.h"
+#import "UIButton+LSAddition.h"
 
 #endif /* LSAdditions_h */

@@ -14,6 +14,7 @@
 		51D789811EEF8CCA00F96AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D7897F1EEF8CCA00F96AF3 /* LaunchScreen.storyboard */; };
 		51D7898E1EEF8DF500F96AF3 /* UIColor+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7898D1EEF8DF500F96AF3 /* UIColor+LSAddition.m */; };
 		51D789911EEF91E100F96AF3 /* UILabel+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D789901EEF91E100F96AF3 /* UILabel+LSAddition.m */; };
+		51D789941EEF932900F96AF3 /* UIButton+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D789931EEF932900F96AF3 /* UIButton+LSAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		51D7898D1EEF8DF500F96AF3 /* UIColor+LSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LSAddition.m"; sourceTree = "<group>"; };
 		51D7898F1EEF91E100F96AF3 /* UILabel+LSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LSAddition.h"; sourceTree = "<group>"; };
 		51D789901EEF91E100F96AF3 /* UILabel+LSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LSAddition.m"; sourceTree = "<group>"; };
+		51D789921EEF932900F96AF3 /* UIButton+LSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LSAddition.h"; sourceTree = "<group>"; };
+		51D789931EEF932900F96AF3 /* UIButton+LSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LSAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				51D7898D1EEF8DF500F96AF3 /* UIColor+LSAddition.m */,
 				51D7898F1EEF91E100F96AF3 /* UILabel+LSAddition.h */,
 				51D789901EEF91E100F96AF3 /* UILabel+LSAddition.m */,
+				51D789921EEF932900F96AF3 /* UIButton+LSAddition.h */,
+				51D789931EEF932900F96AF3 /* UIButton+LSAddition.m */,
 			);
 			path = LSAdditions;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 				51D789911EEF91E100F96AF3 /* UILabel+LSAddition.m in Sources */,
 				51D789761EEF8CCA00F96AF3 /* AppDelegate.m in Sources */,
 				51D7898E1EEF8DF500F96AF3 /* UIColor+LSAddition.m in Sources */,
+				51D789941EEF932900F96AF3 /* UIButton+LSAddition.m in Sources */,
 				51D789731EEF8CCA00F96AF3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
