@@ -19,6 +19,7 @@
 		51D7899A1EEF976D00F96AF3 /* NSObject+LSAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D789991EEF976D00F96AF3 /* NSObject+LSAdditon.m */; };
 		51D7899D1EEF980D00F96AF3 /* UIScreen+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7899C1EEF980D00F96AF3 /* UIScreen+LSAddition.m */; };
 		51D789A01EEF991200F96AF3 /* UIViewController+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7899F1EEF991200F96AF3 /* UIViewController+LSAddition.m */; };
+		51D789A31EEF9A4200F96AF3 /* UIView+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D789A21EEF9A4200F96AF3 /* UIView+LSAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		51D7899C1EEF980D00F96AF3 /* UIScreen+LSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+LSAddition.m"; sourceTree = "<group>"; };
 		51D7899E1EEF991200F96AF3 /* UIViewController+LSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LSAddition.h"; sourceTree = "<group>"; };
 		51D7899F1EEF991200F96AF3 /* UIViewController+LSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LSAddition.m"; sourceTree = "<group>"; };
+		51D789A11EEF9A4200F96AF3 /* UIView+LSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LSAddition.h"; sourceTree = "<group>"; };
+		51D789A21EEF9A4200F96AF3 /* UIView+LSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LSAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				51D7899C1EEF980D00F96AF3 /* UIScreen+LSAddition.m */,
 				51D7899E1EEF991200F96AF3 /* UIViewController+LSAddition.h */,
 				51D7899F1EEF991200F96AF3 /* UIViewController+LSAddition.m */,
+				51D789A11EEF9A4200F96AF3 /* UIView+LSAddition.h */,
+				51D789A21EEF9A4200F96AF3 /* UIView+LSAddition.m */,
 			);
 			path = LSAdditions;
 			sourceTree = "<group>";
@@ -213,6 +218,7 @@
 				51D789A01EEF991200F96AF3 /* UIViewController+LSAddition.m in Sources */,
 				51D7899D1EEF980D00F96AF3 /* UIScreen+LSAddition.m in Sources */,
 				51D789761EEF8CCA00F96AF3 /* AppDelegate.m in Sources */,
+				51D789A31EEF9A4200F96AF3 /* UIView+LSAddition.m in Sources */,
 				51D7899A1EEF976D00F96AF3 /* NSObject+LSAdditon.m in Sources */,
 				51D7898E1EEF8DF500F96AF3 /* UIColor+LSAddition.m in Sources */,
 				51D789941EEF932900F96AF3 /* UIButton+LSAddition.m in Sources */,

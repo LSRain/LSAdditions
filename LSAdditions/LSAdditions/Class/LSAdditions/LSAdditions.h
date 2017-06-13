@@ -15,5 +15,7 @@
 #import "NSAttributedString+LSAddition.h"
 #import "NSObject+LSAdditon.h"
 #import "UIScreen+LSAddition.h"
+#import "UIViewController+LSAddition.h"
+#import "UIView+LSAddition.h"
 
 #endif /* LSAdditions_h */
