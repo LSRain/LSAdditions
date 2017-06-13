@@ -10,13 +10,14 @@
 
 @interface UILabel (LSAddition)
 
-/// Create UILabel
-///
-/// @param text     text
-/// @param fontSize textSize
-/// @param color    color
-///
-/// @return UILabel
+/**
+ Create UILabel
+
+ @param text text
+ @param fontSize textSize
+ @param color color
+ @return UILabel
+ */
 + (instancetype)ls_labelWithText:(NSString *)text fontSize:(CGFloat)fontSize color:(UIColor *)color;
 
 @end
