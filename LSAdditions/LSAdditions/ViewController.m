@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LSAdditions.h"
 
 @interface ViewController ()
 
@@ -18,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.view.backgroundColor = [UIColor yellowColor];
+    self.view.backgroundColor = [UIColor ls_colorWithHex:0xff0000];
 }
 
 

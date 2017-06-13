@@ -12,6 +12,7 @@
 		51D789791EEF8CCA00F96AF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D789781EEF8CCA00F96AF3 /* ViewController.m */; };
 		51D7897E1EEF8CCA00F96AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D7897D1EEF8CCA00F96AF3 /* Assets.xcassets */; };
 		51D789811EEF8CCA00F96AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D7897F1EEF8CCA00F96AF3 /* LaunchScreen.storyboard */; };
+		51D7898E1EEF8DF500F96AF3 /* UIColor+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7898D1EEF8DF500F96AF3 /* UIColor+LSAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		51D7897D1EEF8CCA00F96AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51D789801EEF8CCA00F96AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51D789821EEF8CCA00F96AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51D7898B1EEF8DF500F96AF3 /* LSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSAdditions.h; sourceTree = "<group>"; };
+		51D7898C1EEF8DF500F96AF3 /* UIColor+LSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LSAddition.h"; sourceTree = "<group>"; };
+		51D7898D1EEF8DF500F96AF3 /* UIColor+LSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LSAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		51D789701EEF8CCA00F96AF3 /* LSAdditions */ = {
 			isa = PBXGroup;
 			children = (
+				51D789881EEF8DC300F96AF3 /* Class */,
 				51D789741EEF8CCA00F96AF3 /* AppDelegate.h */,
 				51D789751EEF8CCA00F96AF3 /* AppDelegate.m */,
 				51D789771EEF8CCA00F96AF3 /* ViewController.h */,
@@ -74,6 +79,32 @@
 				51D789721EEF8CCA00F96AF3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51D789881EEF8DC300F96AF3 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				51D7898A1EEF8DF500F96AF3 /* LSAdditions */,
+				51D789891EEF8DC300F96AF3 /* Temp */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		51D789891EEF8DC300F96AF3 /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Temp;
+			sourceTree = "<group>";
+		};
+		51D7898A1EEF8DF500F96AF3 /* LSAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				51D7898B1EEF8DF500F96AF3 /* LSAdditions.h */,
+				51D7898C1EEF8DF500F96AF3 /* UIColor+LSAddition.h */,
+				51D7898D1EEF8DF500F96AF3 /* UIColor+LSAddition.m */,
+			);
+			path = LSAdditions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +179,7 @@
 			files = (
 				51D789791EEF8CCA00F96AF3 /* ViewController.m in Sources */,
 				51D789761EEF8CCA00F96AF3 /* AppDelegate.m in Sources */,
+				51D7898E1EEF8DF500F96AF3 /* UIColor+LSAddition.m in Sources */,
 				51D789731EEF8CCA00F96AF3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
