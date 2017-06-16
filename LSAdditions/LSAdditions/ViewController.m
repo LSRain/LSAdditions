@@ -20,6 +20,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.view.backgroundColor = [UIColor ls_colorWithHex:0xff0000];
+    
+    NSLog(@"tody is: %zd", [NSDate getNowWeekday]);
 }
 
 

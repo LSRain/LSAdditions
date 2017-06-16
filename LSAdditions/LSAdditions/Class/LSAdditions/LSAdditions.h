@@ -17,5 +17,6 @@
 #import "UIScreen+LSAddition.h"
 #import "UIViewController+LSAddition.h"
 #import "UIView+LSAddition.h"
+#import "NSDate+LSAddition.h"
 
 #endif /* LSAdditions_h */
