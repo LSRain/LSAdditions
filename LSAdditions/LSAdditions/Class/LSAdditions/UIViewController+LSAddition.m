@@ -14,7 +14,7 @@
     
     /* 
      * add ChildViewController
-     * 添加子控制器 － 否则响应者链条会被打断，导致事件无法正常传递，而且错误非常难改！
+     * 添加子控制器 － 否则响应者链条会被打断，导致事件无法正常传递
      */
     [self addChildViewController:childController];
     

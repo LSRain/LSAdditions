@@ -11,7 +11,6 @@
 @implementation UIColor (LSAddition)
 
 + (instancetype)ls_colorWithHex:(uint32_t)hex {
-    
     uint8_t r = (hex & 0xff0000) >> 16;
     uint8_t g = (hex & 0x00ff00) >> 8;
     uint8_t b = hex & 0x0000ff;

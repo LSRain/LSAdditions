@@ -12,7 +12,6 @@
 
 + (instancetype)ls_objectWithDict:(NSDictionary *)dict {
     id obj = [[self alloc] init];
-    
     [obj setValuesForKeysWithDictionary:dict];
     
     return obj;

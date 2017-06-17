@@ -28,12 +28,12 @@
 {
     NSFileManager *mgr = [NSFileManager defaultManager];
     
-    /// 文件类型 file type
+    /// file type
     NSDictionary *attrs = [mgr attributesOfItemAtPath:self error:nil];
     NSString *fileType = attrs.fileType;
     
     if ([fileType isEqualToString:NSFileTypeDirectory]) {
-        /// 获得文件夹的遍历器
+        /// traversal of the folder
         NSDirectoryEnumerator *enumerator = [mgr enumeratorAtPath:self];
 
         unsigned long long fileSize = 0;

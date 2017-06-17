@@ -27,6 +27,13 @@
  */
 + (NSInteger)ls_getNowWeekday;
 
+/**
+ 时间间隔
+ time interval
+
+ @param anotherDate anotherDate
+ @return time interval
+ */
 - (LSDateItem *)ls_timeIntervalSinceDate:(NSDate *)anotherDate;
 
 - (BOOL)ls_isToday;

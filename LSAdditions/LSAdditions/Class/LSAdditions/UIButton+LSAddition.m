@@ -12,7 +12,6 @@
 
 + (instancetype)ls_textButton:(NSString *)title fontSize:(CGFloat)fontSize normalColor:(UIColor *)normalColor selectedColor:(UIColor *)selectedColor {
     UIButton *button = [[self alloc] init];
-    
     [button setTitle:title forState:UIControlStateNormal];
     [button setTitleColor:normalColor forState:UIControlStateNormal];
     [button setTitleColor:selectedColor forState:UIControlStateSelected];
