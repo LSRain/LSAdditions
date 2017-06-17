@@ -33,7 +33,7 @@
     NSInteger unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitWeekday |
     NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond;
     NSDate *now = [NSDate date];
-    // 天朝代码:zh_CN
+    /// China : zh_CN
     calendar.locale = [[NSLocale alloc] initWithLocaleIdentifier:@"zh_CN"];
     comps = [calendar components:unitFlags fromDate:now];
     
