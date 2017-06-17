@@ -12,7 +12,7 @@
 
 /**
  Creating model objects using dictionary
- - 使用字典创建模型对象
+ 使用字典创建模型对象
 
  @param dict dictionary
  @return model

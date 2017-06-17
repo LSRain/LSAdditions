@@ -12,7 +12,7 @@
 
 /**
  Screenshot
- - 返回屏幕截图
+ 返回屏幕截图
 
  @return Screenshot
  */

@@ -11,21 +11,21 @@
 @interface UIScreen (LSAddition)
 
 /**
- return screenWidth
+ ScreenWidth
 
  @return screenWidth
  */
 + (CGFloat)ls_screenWidth;
 
 /**
- return screenHeight
+ ScreenHeight
 
  @return screenHeight
  */
 + (CGFloat)ls_screenHeight;
 
 /**
- return screenScale
+ ScreenScale
 
  @return screenScale
  */

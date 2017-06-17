@@ -11,7 +11,7 @@
 @interface UIButton (LSAddition)
 
 /**
- create UIButton
+ Create UIButton
 
  @param title button title
  @param fontSize fontSize
