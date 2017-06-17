@@ -1,7 +1,9 @@
 # LSAdditions
-Additions with Common controls(一些常用控件/对象的分类)
+The Category of Commonly used controls and you can create a control quickly(一些常用控件/对象的分类)
 
 ## Support for commonly used controls or objects
+> Some UI controls and Foundation objects
+
 * "UIColor+LSAddition"
 * "UILabel+LSAddition"
 * "UIButton+LSAddition"
@@ -11,7 +13,7 @@ Additions with Common controls(一些常用控件/对象的分类)
 * "UIViewController+LSAddition"
 * "UIView+LSAddition"
 * "NSString+LSAddition"
-...
+* ...
 
 ## Instructions
 * Add the header file - `LSAddition.h `
