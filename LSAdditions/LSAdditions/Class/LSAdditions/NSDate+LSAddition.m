@@ -12,7 +12,7 @@
 
 - (NSString *)description
 {
-    return [NSString stringWithFormat:@"%zd天%zd小时%zd分%zd秒", self.day, self.hour, self.minute, self.second];
+    return [NSString stringWithFormat:@"%zdDay-%zdHour:%zdMinute:%zdSecond", self.day, self.hour, self.minute, self.second];
 }
 
 @end
@@ -80,10 +80,9 @@
 - (BOOL)ls_isYesterday
 {
     /*
-     判断self这个日期对象是否为昨天
      self 2015-12-09 22:10:01 -> 2015-12-09 00:00:00
      now  2015-12-10 12:10:01 -> 2015-12-01 00:00:00
-     昨天：0year 0month 1day 0hour 0minute 0second
+     yesterday : 0year 0month 1day 0hour 0minute 0second
      */
     
     /// NSDate * -> NSString * -> NSDate *
