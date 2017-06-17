@@ -12,21 +12,17 @@
 
 + (instancetype)ls_imageTextWithImage:(UIImage *)image imageWH:(CGFloat)imageWH title:(NSString *)title fontSize:(CGFloat)fontSize titleColor:(UIColor *)titleColor spacing:(CGFloat)spacing {
     
-    /// textDic
     NSDictionary *titleDict = @{NSFontAttributeName: [UIFont systemFontOfSize:fontSize],
                                 NSForegroundColorAttributeName: titleColor};
     NSDictionary *spacingDict = @{NSFontAttributeName: [UIFont systemFontOfSize:spacing]};
     
-    /// imageText
     NSTextAttachment *attachment = [[NSTextAttachment alloc] init];
     attachment.image = image;
     attachment.bounds = CGRectMake(0, 0, imageWH, imageWH);
     NSAttributedString *imageText = [NSAttributedString attributedStringWithAttachment:attachment];
     
-    /// lineText
     NSAttributedString *lineText = [[NSAttributedString alloc] initWithString:@"\n\n" attributes:spacingDict];
     
-    /// button Text
     NSAttributedString *text = [[NSAttributedString alloc] initWithString:title attributes:titleDict];
     
     /// merge

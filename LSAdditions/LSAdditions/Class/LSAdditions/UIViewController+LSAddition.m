@@ -11,17 +11,8 @@
 @implementation UIViewController (LSAddition)
 
 - (void)ls_addChildController:(UIViewController *)childController intoView:(UIView *)view  {
-    
-    /* 
-     * add ChildViewController
-     * 添加子控制器 － 否则响应者链条会被打断，导致事件无法正常传递
-     */
     [self addChildViewController:childController];
-    
-    /// addChildVc view
     [view addSubview:childController.view];
-    
-    /// finish
     [childController didMoveToParentViewController:self];
 }
 
