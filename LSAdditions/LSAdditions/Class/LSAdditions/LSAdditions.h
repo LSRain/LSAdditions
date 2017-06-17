@@ -18,5 +18,6 @@
 #import "UIViewController+LSAddition.h"
 #import "UIView+LSAddition.h"
 #import "NSDate+LSAddition.h"
+#import "NSString+LSAddition.h"
 
 #endif /* LSAdditions_h */

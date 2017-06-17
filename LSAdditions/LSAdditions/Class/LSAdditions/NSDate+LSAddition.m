@@ -27,6 +27,19 @@
 
 @implementation NSDate (LSAddition)
 
++ (NSInteger)ls_getNowWeekday {
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:GregorianCalendar];
+    NSDateComponents *comps = [[NSDateComponents alloc] init];
+    NSInteger unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitWeekday |
+    NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond;
+    NSDate *now = [NSDate date];
+    // 话说在真机上需要设置区域，才能正确获取本地日期，天朝代码:zh_CN
+    calendar.locale = [[NSLocale alloc] initWithLocaleIdentifier:@"zh_CN"];
+    comps = [calendar components:unitFlags fromDate:now];
+    
+    return [comps weekday];
+}
+
 - (LSDateItem *)ls_timeIntervalSinceDate:(NSDate *)anotherDate
 {
     // createdAtDate和nowDate之间的时间间隔
@@ -131,19 +144,6 @@
     NSInteger nowYear = [calendar components:NSCalendarUnitYear fromDate:[NSDate date]].year;
     
     return selfYear == nowYear;
-}
-
-+ (NSInteger)getNowWeekday {
-    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:GregorianCalendar];
-    NSDateComponents *comps = [[NSDateComponents alloc] init];
-    NSInteger unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitWeekday |
-    NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond;
-    NSDate *now = [NSDate date];
-    // 话说在真机上需要设置区域，才能正确获取本地日期，天朝代码:zh_CN
-    calendar.locale = [[NSLocale alloc] initWithLocaleIdentifier:@"zh_CN"];
-    comps = [calendar components:unitFlags fromDate:now];
-    
-    return [comps weekday];
 }
 
 @end

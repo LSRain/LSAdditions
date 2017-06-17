@@ -25,7 +25,7 @@
  
  @return week
  */
-+ (NSInteger)getNowWeekday;
++ (NSInteger)ls_getNowWeekday;
 
 - (LSDateItem *)ls_timeIntervalSinceDate:(NSDate *)anotherDate;
 
