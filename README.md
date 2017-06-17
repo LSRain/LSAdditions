@@ -1,7 +1,7 @@
 # LSAdditions
-Additions with Common controls(一些常用控件的分类)
+Additions with Common controls(一些常用控件/对象的分类)
 
-## 当前支持控件分类
+## Support for commonly used controls or objects
 * "UIColor+LSAddition"
 * "UILabel+LSAddition"
 * "UIButton+LSAddition"
@@ -10,14 +10,16 @@ Additions with Common controls(一些常用控件的分类)
 * "UIScreen+LSAddition"
 * "UIViewController+LSAddition"
 * "UIView+LSAddition"
+* "NSString+LSAddition"
+...
 
-## 使用方法
-* 添加头文件`LSAddition.h `即可使用
+## Instructions
+* Add the header file - `LSAddition.h `
 
-### `cocopod`导入
+### Use`cocopod`
 > pod 'LSAdditions'
 
-### 示例
+### Example
 ```objective-C
 /// Set color
 self.view.backgroundColor = [UIColor ls_colorWithHex:0xff0000];
@@ -26,8 +28,8 @@ self.view.backgroundColor = [UIColor ls_colorWithHex:0xff0000];
 . . .
 ```
 
-## 版本日志
-* 2017年06月13日 `~>0.0.1`
+## Version record
+* June 13, 2017 `~>0.0.1`
 
 ## License
 * **MIT**
