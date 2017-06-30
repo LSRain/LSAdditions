@@ -25,7 +25,7 @@
     
     NSAttributedString *text = [[NSAttributedString alloc] initWithString:title attributes:titleDict];
     
-    /// merge
+    // merge
     NSMutableAttributedString *attM = [[NSMutableAttributedString alloc] initWithAttributedString:imageText];
     [attM appendAttributedString:lineText];
     [attM appendAttributedString:text];
