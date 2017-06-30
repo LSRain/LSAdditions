@@ -25,7 +25,7 @@
 }
 
 # pragma mark - XOR
-+ (NSString *)ls_HexXOR:(NSString *)panHex withPinv:(NSString *)pinHex{
++ (NSString *)ls_HexXOR:(NSString *)panHex withPinHex:(NSString *)pinHex{
     if (panHex.length != pinHex.length)
     {
         return nil;

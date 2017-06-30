@@ -30,7 +30,7 @@
  @param pinHex 异或值2 OR2
  @return 异或运算后的值 - 16进制 XOR after operation - Hexadecimal
  */
-+ (NSString *)ls_HexXOR:(NSString *)panHex withPinv:(NSString *)pinHex;
++ (NSString *)ls_HexXOR:(NSString *)panHex withPinHex:(NSString *)pinHex;
 
 /**
  生成文档目录全路径
