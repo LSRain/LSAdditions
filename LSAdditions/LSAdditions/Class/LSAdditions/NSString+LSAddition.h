@@ -17,7 +17,20 @@
  @param input The string to be encrypted
  @return The encrypted string
  */
-+ (NSString*)ls_md5HexDigest:(NSString*)input;
++ (NSString *)ls_md5HexDigest:(NSString *)input;
+
+
+/**
+ 两个十六进制字符串进行异或计算
+    - 异或计算常用于加密/解密
+ Two hexadecimal strings are XORed
+    - Exclusive OR calculations are commonly used for encryption / decryption
+ 
+ @param panHex 异或值1 OR1
+ @param pinHex 异或值2 OR2
+ @return 异或运算后的值 - 16进制 XOR after operation - Hexadecimal
+ */
++ (NSString *)ls_HexXOR:(NSString *)panHex withPinv:(NSString *)pinHex;
 
 /**
  生成文档目录全路径

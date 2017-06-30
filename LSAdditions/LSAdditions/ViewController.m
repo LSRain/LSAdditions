@@ -36,6 +36,8 @@
     UILabel *testLabel = [UILabel ls_labelWithText:@"test" fontSize:14 color:[UIColor ls_randomColor]];
     NSLog(@"ls_textSizeWithContentSize.Width: %f", [testLabel.text ls_textSizeWithContentSize:CGSizeZero font:[UIFont systemFontOfSize:14]].width);
     NSLog(@"ls_textHeightWithContentWidth: %f", [testLabel.text ls_textHeightWithContentWidth:10 font:[UIFont systemFontOfSize:14]]);
+    
+    NSLog(@"XOR: %@", [NSString ls_HexXOR:@"12" withPinv:@"F7"]); // or f7
 }
 
 
