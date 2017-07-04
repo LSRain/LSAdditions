@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                     The Category of Commonly used controls and you can create a control quickly
                 DESC
   s.ios.deployment_target = '8.0'
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.homepage     = "https://github.com/LSRain/LSAdditions"
   s.license= { :type => "MIT", :file => "LICENSE" }
   s.author       = { "LSRain" => "mbiaowang@gmail.com" }

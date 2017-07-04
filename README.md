@@ -33,6 +33,8 @@ self.view.backgroundColor = [UIColor ls_colorWithHex:0xff0000];
 ## Version record
 * June 13, 2017 ~> `0.0.1`
 * June 17, 1717 ~> `0.0.2`
+* July 04, 2017 ~> `0.0.3`
+	* Optimized code and added some encryption methods, such as md5, XOR...
 
 ## License
 ### **MIT**
