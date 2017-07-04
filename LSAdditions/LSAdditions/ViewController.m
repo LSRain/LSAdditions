@@ -23,7 +23,7 @@
     
     NSLog(@"tody is: %zd", [NSDate ls_getNowWeekday]);
     
-    ///>>>>>> NSString Category >>>>>>>>
+    // >>>>>> NSString Category >>>>>>>>
     NSLog(@"md5:abc: %@", [NSString ls_md5HexDigest:@"abc"]);
     
     NSString *test = [NSString string];
