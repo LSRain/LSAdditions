@@ -10,6 +10,7 @@
 		513DCC681EF3BAD80017B2BC /* NSDate+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 513DCC671EF3BAD80017B2BC /* NSDate+LSAddition.m */; };
 		513DCC6C1EF4CECE0017B2BC /* NSString+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 513DCC6B1EF4CECE0017B2BC /* NSString+LSAddition.m */; };
 		5150294D1F1617CC00A200A5 /* UIImage+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5150294C1F1617CC00A200A5 /* UIImage+LSAddition.m */; };
+		515029501F1619EF00A200A5 /* NSArray+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5150294F1F1619EF00A200A5 /* NSArray+LSAddition.m */; };
 		51D789731EEF8CCA00F96AF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D789721EEF8CCA00F96AF3 /* main.m */; };
 		51D789761EEF8CCA00F96AF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D789751EEF8CCA00F96AF3 /* AppDelegate.m */; };
 		51D789791EEF8CCA00F96AF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D789781EEF8CCA00F96AF3 /* ViewController.m */; };
@@ -32,6 +33,8 @@
 		513DCC6B1EF4CECE0017B2BC /* NSString+LSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LSAddition.m"; sourceTree = "<group>"; };
 		5150294B1F1617CC00A200A5 /* UIImage+LSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LSAddition.h"; sourceTree = "<group>"; };
 		5150294C1F1617CC00A200A5 /* UIImage+LSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LSAddition.m"; sourceTree = "<group>"; };
+		5150294E1F1619EF00A200A5 /* NSArray+LSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LSAddition.h"; sourceTree = "<group>"; };
+		5150294F1F1619EF00A200A5 /* NSArray+LSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LSAddition.m"; sourceTree = "<group>"; };
 		51D7896E1EEF8CCA00F96AF3 /* LSAdditions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSAdditions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D789721EEF8CCA00F96AF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51D789741EEF8CCA00F96AF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -153,6 +156,8 @@
 				513DCC6B1EF4CECE0017B2BC /* NSString+LSAddition.m */,
 				5150294B1F1617CC00A200A5 /* UIImage+LSAddition.h */,
 				5150294C1F1617CC00A200A5 /* UIImage+LSAddition.m */,
+				5150294E1F1619EF00A200A5 /* NSArray+LSAddition.h */,
+				5150294F1F1619EF00A200A5 /* NSArray+LSAddition.m */,
 			);
 			path = LSAdditions;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 				51D789911EEF91E100F96AF3 /* UILabel+LSAddition.m in Sources */,
 				513DCC6C1EF4CECE0017B2BC /* NSString+LSAddition.m in Sources */,
 				51D789A01EEF991200F96AF3 /* UIViewController+LSAddition.m in Sources */,
+				515029501F1619EF00A200A5 /* NSArray+LSAddition.m in Sources */,
 				51D7899D1EEF980D00F96AF3 /* UIScreen+LSAddition.m in Sources */,
 				51D789761EEF8CCA00F96AF3 /* AppDelegate.m in Sources */,
 				51D789A31EEF9A4200F96AF3 /* UIView+LSAddition.m in Sources */,
