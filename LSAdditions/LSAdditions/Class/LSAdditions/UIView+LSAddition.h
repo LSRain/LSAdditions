@@ -11,6 +11,11 @@
 @interface UIView (LSAddition)
 
 /**
+ *  快速根据xib创建View
+ */
++ (instancetype)ls_viewFromXib;
+
+/**
  Screenshot
  返回屏幕截图
 

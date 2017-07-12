@@ -10,6 +10,12 @@
 
 @implementation UIView (LSAddition)
 
++ (instancetype)ls_viewFromXib
+{
+    
+    return [[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil].firstObject;
+}
+
 - (UIImage *)ls_snapshotImage {
     UIGraphicsBeginImageContextWithOptions(self.bounds.size, YES, 0);
     [self drawViewHierarchyInRect:self.bounds afterScreenUpdates:YES];
