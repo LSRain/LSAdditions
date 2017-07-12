@@ -12,6 +12,7 @@
 
 /**
  *  快速根据xib创建View
+ *  Quickly create View from xib
  */
 + (instancetype)ls_viewFromXib;
 
