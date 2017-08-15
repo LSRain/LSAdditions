@@ -1,5 +1,5 @@
 # LSAdditions
-The Category of Commonly used controls and you can create a control quickly(一些常用控件/对象的分类)
+The Category of Commonly used controls and you can create a control quickly(Object, Control ...)
 
 ## Support for commonly used controls or objects
 > Some UI controls and Foundation objects
@@ -38,3 +38,5 @@ self.view.backgroundColor = [UIColor ls_colorWithHex:0xff0000];
 
 ## License
 ### **MIT**
+
+
